@@ -1,0 +1,53 @@
+Dallas Cowboys Fan Page Notes
+
+Home Directory
+
+/c/Users/Demetrius Boyd/web-development/cowboys-fanpage
+
+Small Goal Setup Favicon for Dallas Cowboys Fan Page site.
+
+1. Setting up favicon	-- Done
+<link rel="shortcut icon" href="images/cowboys.ico">
+
+2. Setup Win Page with videos and grid layout 
+
+3. Upload to Git for commit and version control. -- Done
+
+ https://dboyd10133.github.io/cowboys-fan-page/
+ 
+ 
+4. Grid Layout 
+
+
+
+Big Goal
+1. Need to setup BootStrap Menu ---
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wins.html">Wins</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="losses.html">Losses</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="schedule.html">Schedule</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="players.html">Players</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
