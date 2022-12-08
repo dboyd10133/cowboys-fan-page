@@ -1,0 +1,19 @@
+Dallas Cowboys Fan Page Notes
+
+Home Directory
+
+/c/Users/Demetrius Boyd/web-development/cowboys-fanpage
+
+Small Goal Setup Favicon for Dallas Cowboys Fan Page site.
+
+1. Setting up favicon	-- Done
+<link rel="shortcut icon" href="images/cowboys.ico">
+
+2. Setup Win Page with videos and grid layout
+
+3. Upload to Git for commit and version control.
+
+
+
+Big Goal
+1. Need to setup BootStrap Menu ---
