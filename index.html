@@ -24,71 +24,142 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-light mx-auto ">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto ">
-          <a class="navbar-brand" href="index.html">Cowboys Way</a>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="wins.html">Wins</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="losses.html">Losses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="schedule.html">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="players.html">Players</a>
-          </li>
+  <!-- NavBar -->
+  <div class="navbar-div">
 
-        </ul>
+
+    <nav class="navbar navbar-expand-lg  mx-auto ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto ">
+            <a class="navbar-brand" href="index.html">Cowboys Way</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wins.html">Wins</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="losses.html">Losses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="players.html">Players</a>
+            </li>
+
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
-  <h1>Dallas Cowboys Fan Page 2022 - Infinity</h1>
 
-  <div class="topPageDallas">
+  <!-- Table and Image -->
+
+
+  <div class="container-fluid topPageDallas">
     <h2>Welcome to all things Cowboys <img src="images/cowboys.jpg" alt="Cowboys Star" height="30px" width="30px"> </h2>
     <img class="cowboys-images" src="images/cowboys-star.jfif" alt="Dallas Star">
 
-    <table class="dallasTable">
-      <thead>
-        <tr>
-          <th>Wins</th>
-          <th>Losses</th>
-        </tr>
+  </div>
 
-      </thead>
-      <tbody>
-        <tr>
-          <td>(Week 2) Cowboys 20 Bengals 17</td>
-          <td>(Week 1) Cowboys 3 Buccaneers 19</td>
-        </tr>
-        <tr>
-          <td>(Week 3) Cowboys 23 Giants 16</td>
-          <td>(Week 6) Cowboys 17 Eagles 26</td>
-        </tr>
-        <tr>
-          <td>(Week 4) Cowboys 25 Commanders 10</td>
-          <td>(Week 9) Cowboys 28 Packers 31</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
+  <!-- Carousel div class="">
+
+ -->
+
+  <div class="cowboys-carousel">
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img class="cowboys-carousel-image" src="images/cowboysdak.jpg" class="d-block w-100" alt="First Slide">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+            <div class="carousel-item">
+          <img class="cowboys-carousel-image" src="images/cowboys-helmet.jfif" class="d-block w-100" alt="Third Slide">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="cowboys-carousel-image" src="images/cowboysstadium.jpg" class="d-block w-100" alt="Fourth Slide">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
   </div>
 
+
+
+
+
+
+
+  <!-- Table div with bootstrap classes row -->
+  <div class="row container-fluid cowboys-table">
+    <div class="col">
+
+      <table class="mx-auto">
+        <thead>
+          <tr>
+            <th>Wins</th>
+            <th>Losses</th>
+          </tr>
+
+        </thead>
+        <tbody>
+          <tr>
+            <td>(Week 2) Cowboys 20 Bengals 17</td>
+            <td>(Week 1) Cowboys 3 Buccaneers 19</td>
+          </tr>
+          <tr>
+            <td>(Week 3) Cowboys 23 Giants 16</td>
+            <td>(Week 6) Cowboys 17 Eagles 26</td>
+          </tr>
+          <tr>
+            <td>(Week 4) Cowboys 25 Commanders 10</td>
+            <td>(Week 9) Cowboys 28 Packers 31</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+
+
+  <!-- Containers & Bootstrap Grid Layout -->
   <div class="middlePageDallas">
 
 
@@ -97,7 +168,7 @@
 
   </div>
 
-
+  <!-- Subscribe section -->
   <div class="subscibe-Page-Dallas">
     <h3>Subscribe to our Fan Page</h3>
     <form class="" action="index.html" method="post">
@@ -110,6 +181,7 @@
 
   </div>
 
+  <!-- Footer div -->
   <footer class="footerDallas">&COPY 2020 - 2099 Cowboys Way Dee Boyd </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

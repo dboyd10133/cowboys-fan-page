@@ -1,7 +1,8 @@
 /* Dallas Cowboys Fan Page CSS */
 body {
-  text-align: center;
   background-color: #869397;
+  text-align: center;
+
 
 }
 
@@ -13,16 +14,33 @@ margin: 10px;
 
 }
 
-/* navbar */
-.navbar-default {
-    background-color: #869397;
-    border-color: #E7E7E7;
-}
-
-.cowboys-images {
-  margin: 20px;
+.carousel-item {
+  height: 500px;
 
 }
+
+.container-fluid {
+
+  padding: 5% 15%;
+
+}
+
+
+.cowboys-carousel-image {
+
+  height: 100%;
+  width: 100%;
+
+
+}
+
+
+.cowboys-table {
+
+  background-color: white;
+}
+
+
 
 .footerDallas {
   background-color: white;
@@ -30,6 +48,13 @@ margin: 10px;
   padding: 10px;
 
 }
+.navbar-div {
+
+  background-color: #869397;
+
+}
+
+
 
 .subscibe-Page-Dallas {
 
@@ -37,22 +62,30 @@ margin: 10px;
   padding: 60px
 }
 
+
 table {
-  font-family: arial, sans-serif;
   border-collapse: collapse;
+  font-family: arial, sans-serif;
   width: 50%;
-  margin-left: 400px;
-  margin-top: 30px;
+
 
 
 }
 
 td, th {
   border: 1px solid #dddddd;
-  text-align: left;
   padding: 8px;
+  text-align: left;
+
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+
+
+.topPageDallas {
+
+  background-color: white;
 }

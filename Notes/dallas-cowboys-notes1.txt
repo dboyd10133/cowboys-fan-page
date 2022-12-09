@@ -2,7 +2,7 @@ Dallas Cowboys Fan Page Notes
 
 Home Directory
 
-/c/Users/Demetrius Boyd/web-development/cowboys-fanpage
+"/c/Users/Demetrius Boyd/web-development/cowboys-fanpage"
 
 Small Goal Setup Favicon for Dallas Cowboys Fan Page site.
 
@@ -16,9 +16,11 @@ Small Goal Setup Favicon for Dallas Cowboys Fan Page site.
  https://dboyd10133.github.io/cowboys-fan-page/
  
  
+ 
+ 
 4. Grid Layout 
 
-
+Ensure Website is responsive on all screens
 
 Big Goal
 1. Need to setup BootStrap Menu ---
@@ -51,3 +53,7 @@ Big Goal
     </div>
   </div>
 </nav>
+
+justify-content-center
+
+https://github.com/dboyd10133/cowboys-fan-page.git
